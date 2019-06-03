@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class BasqueNamesCachingApp {
 
-   public static void main(String... args) {
-      new SpringApplicationBuilder().sources(BasqueNamesCachingApp.class).run(args);
-   }
+    public static void main(String... args) {
+        new SpringApplicationBuilder().sources(BasqueNamesCachingApp.class).run(args);
+    }
 }
